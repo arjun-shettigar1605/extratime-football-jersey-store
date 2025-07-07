@@ -1,0 +1,15 @@
+{
+  "name": "extratime",
+  "version": "1.0.0",
+  "description": "Jersey Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "full",
+    "stack"
+  ],
+  "author": "arjun shettigar",
+  "license": "ISC"
+}
