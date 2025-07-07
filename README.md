@@ -41,49 +41,35 @@ A full-stack MERN e-commerce application for football jerseys with Razorpay paym
 - Razorpay Account (for payments)
 
 ### Backend Setup
-
+```bash
 cd server
 npm install
 npm run seed  
 npm run dev   
-
+```
 ### Frontend Setup
 
+```bash
 cd client
 npm install
 npm run dev 
+```
 
 ### Environment Variables 🔐
 Create .env file in server directory:
 
+```javascript
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_secret_key
 NODE_ENV=development
-
-### API Endpoints 📡
-Authentication
-
-POST /api/auth/register - Register user
-POST /api/auth/login - Login user
-GET /api/auth/profile - Get user profile
-
-Products
-
-GET /api/products - Get all products
-GET /api/products/:id - Get product by ID
-GET /api/products/category/:slug - Get products by category
-
-Orders
-
-POST /api/orders/create-payment - Create Razorpay order
-POST /api/orders/verify-payment - Verify payment & create order
-GET /api/orders/my-orders - Get user orders
+```
 
 ### Screenshots 📷
 
+
 ### Contact 📧
-Your Name - your.email@example.com
+Arjun Pravin Shettigar - arjun.shettigar16@gmail.com
 Project Link: https://github.com/yourusername/football-jersey-store
