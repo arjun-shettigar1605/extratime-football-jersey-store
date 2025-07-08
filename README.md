@@ -2,7 +2,7 @@
 
 A full-stack MERN e-commerce application for football jerseys with Razorpay payment integration.
 ## 🚀 Live Link: 
-[🌐 View Website](https://your-deployed-site.vercel.app)  
+[🌐 View Website](https://extratime-football-jersey-store-frontend.onrender.com)  
 
 ## Features ✨
 
@@ -13,7 +13,7 @@ A full-stack MERN e-commerce application for football jerseys with Razorpay paym
 - 🎨 Modern UI with Tailwind CSS
 - 👤 User Profile Management
 - 📋 Order History
-- ❤️ Wishlist Functionalit
+- ❤️ Wishlist Functionality
 
 
 ## Tech Stack 🛠️
