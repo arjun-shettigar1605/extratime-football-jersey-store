@@ -2,7 +2,7 @@ import axios from "axios"; //makes requests to backend
 
 // creating axios instance
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", //backend server address
+  baseURL: "https://extratime-football-jersey-store-backend.onrender.com/api",  //"http://localhost:5000/api",backend server address
   headers: {
     "Content-Type": "application/json",
   },
