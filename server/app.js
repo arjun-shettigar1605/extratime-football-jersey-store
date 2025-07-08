@@ -20,6 +20,8 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
+app.set("trust proxy", 1);
+
 
 
 // CORS(Cross Origin Resource Sharing) allows only trusted domains to access API. Ex: frontend on port 5173 can talk to backend on port 5000
