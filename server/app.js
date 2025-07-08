@@ -23,40 +23,40 @@ app.use(limiter);
 
 
 // CORS(Cross Origin Resource Sharing) allows only trusted domains to access API. Ex: frontend on port 5173 can talk to backend on port 5000
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      // Allow requests with no origin (like mobile apps or curl requests)
-      if (!origin) return callback(null, true);
-
-      const allowedOrigins = [
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "https://your-app-name.vercel.app", // Replace with your actual Vercel domain
-        "https://extratime-football-jersey-store.vercel.app", // Example
-        process.env.FRONTEND_URL, // Add this environment variable
-      ];
-
-      if (allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-    credentials: true,
-    optionsSuccessStatus: 200,
-  })
-);
 // app.use(
 //   cors({
-//     origin:
-//       process.env.NODE_ENV === "production"
-//         ? "extratimestore.com" //replace with domain name when deployed.
-//         : "http://localhost:5173",
+//     origin: function (origin, callback) {
+//       // Allow requests with no origin (like mobile apps or curl requests)
+//       if (!origin) return callback(null, true);
+
+//       const allowedOrigins = [
+//         "http://localhost:5173",
+//         "http://localhost:3000",
+//         "https://your-app-name.vercel.app", // Replace with your actual Vercel domain
+//         "https://extratime-football-jersey-store.vercel.app", // Example
+//         process.env.FRONTEND_URL, // Add this environment variable
+//       ];
+
+//       if (allowedOrigins.includes(origin)) {
+//         callback(null, true);
+//       } else {
+//         callback(new Error("Not allowed by CORS"));
+//       }
+//     },
 //     credentials: true,
 //     optionsSuccessStatus: 200,
 //   })
 // );
+app.use(
+  cors({
+    origin:
+      process.env.NODE_ENV === "production"
+        ? "https://extratime-football-jersey-store-frontend.onrender.com" //replace with domain name when deployed.
+        : "http://localhost:5173",
+    credentials: true,
+    optionsSuccessStatus: 200,
+  })
+);
 
 // allows backend to read JSON sent in the requests
 app.use(express.json({ limit: "10mb" }));
