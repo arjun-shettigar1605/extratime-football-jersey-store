@@ -7,7 +7,7 @@ const CategoryGrid = () => {
       id: 1,
       name: "2024-25 Jerseys",
       image:
-        "/src/assets/images/home/2425category.png",
+        "/images/2425category.png",
       link: "/category/2024-25-jerseys",
       description: "Season jerseys",
     },
@@ -15,7 +15,7 @@ const CategoryGrid = () => {
       id: 2,
       name: "Retro Jerseys",
       image:
-        "/src/assets/images/home/retrocategory.png",
+        "/images/retrocategory.png",
       link: "/category/retro-jerseys",
       description: "Classic vintage designs",
     },
@@ -23,7 +23,7 @@ const CategoryGrid = () => {
       id: 3,
       name: "Football Shoes",
       image:
-        "/src/assets/images/home/shoescategory.png",
+        "/images/shoescategory.png",
       link: "/category/football-shoes",
       description: "Professional boots & cleats",
     },
@@ -31,7 +31,7 @@ const CategoryGrid = () => {
       id: 4,
       name: "Anthem Jackets",
       image:
-        "/src/assets/images/home/anthemcategory.png",
+        "/images/anthemcategory.png",
       link: "/category/anthem-jackets",
       description: "Official team jackets",
     },

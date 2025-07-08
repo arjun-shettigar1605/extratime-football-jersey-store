@@ -10,7 +10,7 @@ const HeroCarousel = () => {
       title: "2024-25 Jerseys",
       description: "Get the latest jerseys from top teams",
       image:
-        "/src/assets/images/home/2425.png",
+        "/images/2425.png",
       link: "/category/2024-25-jerseys",
     },
     {
@@ -18,7 +18,7 @@ const HeroCarousel = () => {
       title: "Retro Jerseys",
       description: "Classic designs from football history",
       image:
-        "/src/assets/images/home/retrocarousel.png",
+        "/images/retrocarousel.png",
       link: "/category/retro-jerseys",
     },
     {
@@ -26,7 +26,7 @@ const HeroCarousel = () => {
       title: "Clearance Sale",
       description: "Up to 50% off on selected items",
       image:
-        "/src/assets/images/home/clearancecarousel.png",
+        "/images/clearancecarousel.png",
       link: "/category/clearance",
     },
     {
@@ -34,7 +34,7 @@ const HeroCarousel = () => {
       title: "Full Sleeves Jerseys",
       description: "Perfect for cooler weather",
       image:
-        "/src/assets/images/home/fullsleevescarousel.png",
+        "/images/fullsleevescarousel.png",
       link: "/category/full-sleeves-jerseys",
     },
     {
@@ -42,7 +42,7 @@ const HeroCarousel = () => {
       title: "Anthem Jackets",
       description: "Official team anthem jackets",
       image:
-        "/src/assets/images/home/anthemjacketcarousel.png",
+        "/images/anthemjacketcarousel.png",
       link: "/category/anthem-jackets",
     },
   ];

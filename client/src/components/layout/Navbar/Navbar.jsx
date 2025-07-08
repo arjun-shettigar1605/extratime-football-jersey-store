@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center">
               <div className="w-36 rounded-lg font-bold text-xl">
                 <img
-                  src="../../../src/assets/images/logos/logo.png"
+                  src="/images/logo.png"
                   alt="Football jerseys display"
                   className="inline justify-center items-center w-48 h-full object-cover"
                 />

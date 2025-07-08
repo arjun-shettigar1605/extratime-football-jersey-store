@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <div className="bg-blue-600 text-white rounded-lg font-bold text-xl">
                 <img
-                  src="../../../src/assets/images/logos/logo.png"
+                  src="/images/logo.png"
                   alt="Football jerseys display"
                   className="inline justify-center items-center w-48 h-full object-cover"
                 />

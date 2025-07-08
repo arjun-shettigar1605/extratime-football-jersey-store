@@ -71,7 +71,7 @@ const Login = () => {
       {/* Left side - Jersey display */}
       <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
         <img
-          src="../../../src/assets/images/wallpaper/login-bg.jpg"
+          src="/images/login-bg.jpg"
           alt="Football jerseys display"
           className="w-full h-full object-cover"
         />
@@ -86,7 +86,7 @@ const Login = () => {
           <div className="text-center">
             <div>
               <img
-                src="../../../src/assets/images/logos/logo.png"
+                src="/images/logo.png"
                 alt="Football jerseys display"
                 className="inline justify-center items-center w-48 h-full object-cover"
               />
